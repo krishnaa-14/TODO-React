@@ -4,7 +4,7 @@ import { BsPencil, BsTrash } from 'react-icons/bs';
 
 const Body = () => {
   const [todoItem, setTodoItem] = useState('');
-  const [todoList, setTodoList] = useState(['TODO1', 'TODO2', 'TODO3']);
+  const [todoList, setTodoList] = useState(['Buy Groceries..', 'Complete React Assignment...', 'Record a YouTube Video...']);
   const [completedList, setCompletedList] = useState([]);
   const [itemToEdit, setItemToEdit] = useState("TODO4");
   const [newValue, setNewValue] = useState("");
